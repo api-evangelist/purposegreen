@@ -1,7 +1,27 @@
 aid: purposegreen
-name: Purposegreen
-description: Purposegreen is a company surfaced as a portfolio company of speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/purposegreen.png
+name: Purpose Green
+description: >-
+  Purpose Green is a Berlin-based sustainability consulting firm and 360-degree
+  provider for sustainable real estate development, serving property owners and
+  investors who manage multi-unit residential and commercial buildings. The
+  company combines energy auditing (its Energy Light Report tool), ESG reporting,
+  subsidy and grant consultation, renovation project management, and a web-based
+  portfolio management portal (Green+ Portal) to help reduce a building's final
+  energy demand by up to 80%. It is backed by Speedinvest and was added to the
+  API Evangelist network as a portfolio lead; the company publishes web tools and
+  a customer portal but no public developer API or documentation at this time.
 url: https://raw.githubusercontent.com/api-evangelist/purposegreen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Sustainability
+- ESG
+- Real Estate
+- Energy Efficiency
+- Climate
+- Consulting
+- Germany
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/purposegreen-domain-security.yml
+- type: Website
+  url: https://www.purpose-green.com
+- type: Portal
+  url: https://www.purpose-green.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
