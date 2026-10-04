@@ -47,7 +47,7 @@ tags:
 - Company
 - Sustainability
 - ESG
-- Real-Estate
+- Real Estate
 - Energy Efficiency
 - Climate
 - Consulting
@@ -61,6 +61,7 @@ tags_raw:
 - Climate
 - Consulting
 - Germany
+- Real-Estate
 apis: []
 x-enrichment:
   date: '2026-07-20'
